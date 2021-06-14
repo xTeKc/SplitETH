@@ -11,7 +11,7 @@ const ALCHEMY_API_KEY = "KEY";
 const ROPSTEN_PRIVATE_KEY = "YOUR ROPSTEN PRIVATE KEY"; //Add private key to .env
 
 module.exports = {
-  solidity: "0.7.3",
+  solidity: "0.8.5",
   networks: {
     ropsten: {
       url: `https://eth-ropsten.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
