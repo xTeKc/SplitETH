@@ -10,7 +10,7 @@ contract Token {
     string public symbol = "DGLD";
 
     // The fixed amount of tokens stored in an unsigned integer type variable.
-    uint256 public totalSupply = 10000000; //10 million
+    uint256 public totalSupply = 1000000; //1 million
 
     // An address type variable is used to store ethereum accounts.
     address public owner;
